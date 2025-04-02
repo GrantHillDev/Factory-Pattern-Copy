@@ -17,6 +17,7 @@ namespace FactoryPattern
 
         public void Drive()
         {
+            ConsoleLogger.VehicleStartUp();
             Console.WriteLine("Whoa, now this motorcycle is revving up....");
             Console.WriteLine("");
         }
